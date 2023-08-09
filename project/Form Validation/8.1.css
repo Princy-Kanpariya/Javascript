@@ -1,0 +1,42 @@
+/* body{
+    background-color: black;
+} */
+form{
+    margin: 30px 0;
+    width: 700px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 50px 0;
+    padding-left: 100px;
+    background-color: white;
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+label{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 10px ;
+}
+input{
+    height: 30px;
+    width: 300px;   
+    margin: 10px 0 ;
+    font-size: 20px;
+    padding: 0 10px;
+    background-color: whitesmoke;
+    border: 2px solid #000;
+}
+table {
+    background-color: white;
+    /* box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5); */
+    /* transform: translateY(-5px); */
+    border-collapse: collapse; 
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+th, td{
+    padding: 8px;
+    border: 1px solid black;
+}

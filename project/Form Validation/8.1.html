@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="8.1.css">
+   
+</head>
+
+<body>
+
+  <center>
+        
+    <h1>Login Form</h1>
+      
+    <form name="registrationForm" onsubmit="return validateForm()">
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name"  minlength="3" maxlength="20" required><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" minlength="3" maxlength="20" required><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" id="phone_number" name="phone_number" pattern="^\d{10}$" minlength="10" maxlength="10" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="date">DOB:</label>
+        <input type="date" id="date" name="date" style="width: 150px;" required><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" style="width: 25px;" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" style="width: 25px;" required>
+        <label for="female">Female</label><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Register" style="width: 250px; margin-left: 200px; height: 50px; border: transparent; color: #fff; background-color: deepskyblue; font-weight: 700;" >
+
+    </form>
+
+  </center>
+
+  <table id="userData" align="center">
+
+    <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+        <th>DOB</th>
+        <th>Gender</th>
+        <th>Password</th>
+    </tr>
+
+</table>
+
+    <script type="text/javascript" src="8.1.js"></script>
+</body>
+
+</html>
